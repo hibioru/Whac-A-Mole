@@ -1,0 +1,18 @@
+C:\Users\NIBABA\Documents\Visual Studio 2013\Projects\平时的作业呀\打地鼠（草稿）\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.exe.config
+C:\Users\NIBABA\Documents\Visual Studio 2013\Projects\平时的作业呀\打地鼠（草稿）\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.exe
+C:\Users\NIBABA\Documents\Visual Studio 2013\Projects\平时的作业呀\打地鼠（草稿）\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.pdb
+C:\Users\NIBABA\Documents\Visual Studio 2013\Projects\平时的作业呀\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.csprojResolveAssemblyReference.cache
+C:\Users\NIBABA\Documents\Visual Studio 2013\Projects\平时的作业呀\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.Form1.resources
+C:\Users\NIBABA\Documents\Visual Studio 2013\Projects\平时的作业呀\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.Properties.Resources.resources
+C:\Users\NIBABA\Documents\Visual Studio 2013\Projects\平时的作业呀\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.csproj.GenerateResource.Cache
+C:\Users\NIBABA\Documents\Visual Studio 2013\Projects\平时的作业呀\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.exe
+C:\Users\NIBABA\Documents\Visual Studio 2013\Projects\平时的作业呀\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.pdb
+D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.exe.config
+D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.exe
+D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.pdb
+D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.exe
+D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.pdb
+D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.csprojResolveAssemblyReference.cache
+D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.Form1.resources
+D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.Properties.Resources.resources
+D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.csproj.GenerateResource.Cache
