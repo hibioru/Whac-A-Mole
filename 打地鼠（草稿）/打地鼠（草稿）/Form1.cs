@@ -38,7 +38,6 @@ namespace 打地鼠_草稿_
                 label3.Text = "游戏得分" + count;
                 label5.Text = "游戏失误" + uncount;
             }
-            p6.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -46,6 +45,7 @@ namespace 打地鼠_草稿_
             //游戏开始的按钮，大概效果就是按下之后按钮隐藏，所有图片隐藏，游戏时间和得分为0，timer全部不动。
             button1.Visible = false;
             timer1.Enabled = true;
+            timer2.Enabled = true;
             p1.Visible = false;
             p2.Visible = false;
             p3.Visible = false;
@@ -54,7 +54,6 @@ namespace 打地鼠_草稿_
             p6.Visible = false;
             count = 0;
             pat = 0;
-            time = Convert.ToInt32(textBox1.Text);
             label3.Text = "游戏得分：0";
             label5.Text = "游戏失误：0";
             if (timer1.Enabled == true)
@@ -97,7 +96,6 @@ namespace 打地鼠_草稿_
             }
             time--;
             progressBar1.Value = time;
-            timer2.Enabled = true;
         }
 
         private void p1_Click(object sender, EventArgs e)
@@ -116,7 +114,6 @@ namespace 打地鼠_草稿_
                 label3.Text = "游戏得分" + count;
                 label5.Text = "游戏失误" + uncount;
             }
-            p1.Visible = false;
         }
 
         private void p5_Click(object sender, EventArgs e)
@@ -135,7 +132,6 @@ namespace 打地鼠_草稿_
                 label3.Text = "游戏得分" + count;
                 label5.Text = "游戏失误" + uncount;
             }
-            p5.Visible = false;
         }
 
         private void p4_Click(object sender, EventArgs e)
@@ -154,7 +150,6 @@ namespace 打地鼠_草稿_
                 label3.Text = "游戏得分" + count;
                 label5.Text = "游戏失误" + uncount;
             }
-            p4.Visible = false;
         }
 
         private void p2_Click(object sender, EventArgs e)
@@ -173,7 +168,6 @@ namespace 打地鼠_草稿_
                 label3.Text = "游戏得分" + count;
                 label5.Text = "游戏失误" + uncount;
             }
-            p2.Visible = false;
         }
 
         private void p3_Click(object sender, EventArgs e)
@@ -191,28 +185,6 @@ namespace 打地鼠_草稿_
                 uncount++;
                 label3.Text = "游戏得分" + count;
                 label5.Text = "游戏失误" + uncount;
-            }
-            p3.Visible = false;
-        }
-
-        private void timer2_Tick(object sender, EventArgs e)
-        {
-            if (time == 0)
-            {
-                timer1.Enabled = false;
-                p1.Image = imageList1.Images[0];
-                p2.Image = imageList1.Images[0];
-                p3.Image = imageList1.Images[0];
-                p4.Image = imageList1.Images[0];
-                p5.Image = imageList1.Images[0];
-                p6.Image = imageList1.Images[0];
-                button1.Visible = true;
-                button1.Text = "再来一次";
-            }
-            else
-            {
-                time--;
-                progressBar1.Value = time;
             }
         }
     }
