@@ -29,14 +29,14 @@ namespace 打地鼠_草稿_
             if (pat == 1)
             {
                 count++;
-                label3.Text = "游戏得分" + count;
+                label3.Text = "游戏得分:" + count;
                 pat = 0;
             }
             else
             {
                 uncount++;
-                label3.Text = "游戏得分" + count;
-                label5.Text = "游戏失误" + uncount;
+                label3.Text = "游戏得分:" + count;
+                label5.Text = "游戏失误:" + uncount;
             }
             p6.Visible = false;
         }
@@ -72,31 +72,45 @@ namespace 打地鼠_草稿_
             {
                 case(1):
                     p1.Visible = true;
+                    break;
                     p1.Visible = false;
                     break;
                 case(2):
                     p2.Visible = true;
+                    break;
                     p2.Visible = false;
                     break;
                 case(3):
                     p3.Visible = true;
+                    break;
                     p3.Visible = false;
                     break;
                 case(4):
                     p4.Visible = true;
+                    break;
                     p4.Visible = false;
                     break;
                 case(5):
                     p5.Visible = true;
+                    break;
                     p5.Visible = false;
                     break;
                 case(6):
                     p6.Visible = true;
+                    break;
                     p6.Visible = false;
                     break;
             }
-            time--;
-            progressBar1.Value = time;
+            if (time >= 1)
+            {
+                time--;
+                progressBar1.Value = time;
+            }
+            else
+            {
+                time = 0;
+                progressBar1.Value = time;
+            }
             timer2.Enabled = true;
         }
 
@@ -107,14 +121,14 @@ namespace 打地鼠_草稿_
             if (pat == 1)
             {
                 count++;
-                label3.Text = "游戏得分" + count;
+                label3.Text = "游戏得分:" + count;
                 pat = 0;
             }
             else
             {
                 uncount++;
-                label3.Text = "游戏得分" + count;
-                label5.Text = "游戏失误" + uncount;
+                label3.Text = "游戏得分:" + count;
+                label5.Text = "游戏失误:" + uncount;
             }
             p1.Visible = false;
         }
@@ -126,14 +140,14 @@ namespace 打地鼠_草稿_
             if (pat == 1)
             {
                 count++;
-                label3.Text = "游戏得分" + count;
+                label3.Text = "游戏得分:" + count;
                 pat = 0;
             }
             else
             {
                 uncount++;
-                label3.Text = "游戏得分" + count;
-                label5.Text = "游戏失误" + uncount;
+                label3.Text = "游戏得分:" + count;
+                label5.Text = "游戏失误:" + uncount;
             }
             p5.Visible = false;
         }
@@ -145,14 +159,14 @@ namespace 打地鼠_草稿_
             if (pat == 1)
             {
                 count++;
-                label3.Text = "游戏得分" + count;
+                label3.Text = "游戏得分:" + count;
                 pat = 0;
             }
             else
             {
                 uncount++;
-                label3.Text = "游戏得分" + count;
-                label5.Text = "游戏失误" + uncount;
+                label3.Text = "游戏得分:" + count;
+                label5.Text = "游戏失误:" + uncount;
             }
             p4.Visible = false;
         }
@@ -164,14 +178,14 @@ namespace 打地鼠_草稿_
             if (pat == 1)
             {
                 count++;
-                label3.Text = "游戏得分" + count;
+                label3.Text = "游戏得分:" + count;
                 pat = 0;
             }
             else
             {
                 uncount++;
-                label3.Text = "游戏得分" + count;
-                label5.Text = "游戏失误" + uncount;
+                label3.Text = "游戏得分:" + count;
+                label5.Text = "游戏失误:" + uncount;
             }
             p2.Visible = false;
         }
@@ -183,14 +197,14 @@ namespace 打地鼠_草稿_
             if (pat == 1)
             {
                 count++;
-                label3.Text = "游戏得分" + count;
+                label3.Text = "游戏得分:" + count;
                 pat = 0;
             }
             else
             {
                 uncount++;
-                label3.Text = "游戏得分" + count;
-                label5.Text = "游戏失误" + uncount;
+                label3.Text = "游戏得分:" + count;
+                label5.Text = "游戏失误:" + uncount;
             }
             p3.Visible = false;
         }
