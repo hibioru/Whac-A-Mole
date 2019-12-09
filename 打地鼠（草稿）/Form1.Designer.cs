@@ -61,7 +61,7 @@
             this.p3.BackColor = System.Drawing.Color.Transparent;
             this.p3.Image = global::打地鼠_草稿_.Properties.Resources.真香;
             this.p3.Location = new System.Drawing.Point(536, 197);
-            this.p3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.p3.Margin = new System.Windows.Forms.Padding(2);
             this.p3.Name = "p3";
             this.p3.Size = new System.Drawing.Size(139, 143);
             this.p3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -74,7 +74,7 @@
             this.p2.BackColor = System.Drawing.Color.Transparent;
             this.p2.Image = global::打地鼠_草稿_.Properties.Resources.真香;
             this.p2.Location = new System.Drawing.Point(297, 197);
-            this.p2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.p2.Margin = new System.Windows.Forms.Padding(2);
             this.p2.Name = "p2";
             this.p2.Size = new System.Drawing.Size(143, 143);
             this.p2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -87,7 +87,7 @@
             this.p1.BackColor = System.Drawing.Color.Transparent;
             this.p1.Image = global::打地鼠_草稿_.Properties.Resources.真香;
             this.p1.Location = new System.Drawing.Point(61, 197);
-            this.p1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.p1.Margin = new System.Windows.Forms.Padding(2);
             this.p1.Name = "p1";
             this.p1.Size = new System.Drawing.Size(143, 143);
             this.p1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -100,7 +100,7 @@
             this.p4.BackColor = System.Drawing.Color.Transparent;
             this.p4.Image = global::打地鼠_草稿_.Properties.Resources.真香;
             this.p4.Location = new System.Drawing.Point(61, 396);
-            this.p4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.p4.Margin = new System.Windows.Forms.Padding(2);
             this.p4.Name = "p4";
             this.p4.Size = new System.Drawing.Size(143, 143);
             this.p4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -113,7 +113,7 @@
             this.p5.BackColor = System.Drawing.Color.Transparent;
             this.p5.Image = global::打地鼠_草稿_.Properties.Resources.真香;
             this.p5.Location = new System.Drawing.Point(297, 396);
-            this.p5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.p5.Margin = new System.Windows.Forms.Padding(2);
             this.p5.Name = "p5";
             this.p5.Size = new System.Drawing.Size(143, 143);
             this.p5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -126,7 +126,7 @@
             this.p6.BackColor = System.Drawing.Color.Transparent;
             this.p6.Image = global::打地鼠_草稿_.Properties.Resources.真香;
             this.p6.Location = new System.Drawing.Point(536, 396);
-            this.p6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.p6.Margin = new System.Windows.Forms.Padding(2);
             this.p6.Name = "p6";
             this.p6.Size = new System.Drawing.Size(139, 143);
             this.p6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -150,7 +150,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.Location = new System.Drawing.Point(241, 561);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(261, 53);
             this.button1.TabIndex = 8;
@@ -205,13 +205,14 @@
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(23, 39);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(537, 21);
             this.progressBar1.TabIndex = 15;
             // 
             // timer1
             // 
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // timer2
@@ -228,7 +229,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(96, 11);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(465, 21);
             this.textBox1.TabIndex = 16;
@@ -236,7 +237,7 @@
             // panel1
             // 
             this.panel1.Location = new System.Drawing.Point(61, 197);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(615, 342);
             this.panel1.TabIndex = 17;
@@ -261,7 +262,7 @@
             this.Controls.Add(this.p5);
             this.Controls.Add(this.p6);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.p3)).EndInit();

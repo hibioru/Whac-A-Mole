@@ -61,8 +61,8 @@ namespace 打地鼠_草稿_
             catch
             {
                 textBox1 .Text  ="";
-                MessageBox.Show("错误");
-                Application.Exit();
+                MessageBox.Show("请输入时间!");
+                
             }
             label3.Text = "游戏得分：0";
             label5.Text = "游戏失误：0";
@@ -75,6 +75,7 @@ namespace 打地鼠_草稿_
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            
             Random a = new Random();
             int num = a.Next(6);
             switch (num)

@@ -19,9 +19,9 @@ D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打
 C:\Users\sally\Desktop\c#\新建文件夹\Whac-A-Mole\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.exe.config
 C:\Users\sally\Desktop\c#\新建文件夹\Whac-A-Mole\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.exe
 C:\Users\sally\Desktop\c#\新建文件夹\Whac-A-Mole\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.pdb
-C:\Users\sally\Desktop\c#\新建文件夹\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.csprojResolveAssemblyReference.cache
 C:\Users\sally\Desktop\c#\新建文件夹\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.Form1.resources
 C:\Users\sally\Desktop\c#\新建文件夹\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.Properties.Resources.resources
 C:\Users\sally\Desktop\c#\新建文件夹\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.csproj.GenerateResource.Cache
 C:\Users\sally\Desktop\c#\新建文件夹\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.exe
 C:\Users\sally\Desktop\c#\新建文件夹\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.pdb
+C:\Users\sally\Desktop\c#\新建文件夹\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.初始界面.resources

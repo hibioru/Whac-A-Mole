@@ -16,7 +16,8 @@ namespace 打地鼠_草稿_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new 初始界面());
+          
         }
     }
 }
