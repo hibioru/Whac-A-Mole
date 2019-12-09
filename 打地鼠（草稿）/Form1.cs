@@ -116,21 +116,23 @@ namespace 打地鼠_草稿_
 
         private void p1_Click(object sender, EventArgs e)
         {
-            p6.Image = imageList1.Images[1];
+            p1.Image = imageList1.Images[1];
             pat = 1;
             if (pat == 1)
             {
                 count++;
                 label3.Text = "游戏得分:" + count;
                 pat = 0;
+                p1.Visible = false;
             }
             else
             {
                 uncount++;
                 label3.Text = "游戏得分:" + count;
                 label5.Text = "游戏失误:" + uncount;
+                p1.Visible = false;
             }
-            p1.Visible = false;
+
         }
 
         private void p5_Click(object sender, EventArgs e)
@@ -142,14 +144,15 @@ namespace 打地鼠_草稿_
                 count++;
                 label3.Text = "游戏得分:" + count;
                 pat = 0;
+                p5.Visible = false;
             }
             else
             {
                 uncount++;
                 label3.Text = "游戏得分:" + count;
                 label5.Text = "游戏失误:" + uncount;
+                p5.Visible = false;
             }
-            p5.Visible = false;
         }
 
         private void p4_Click(object sender, EventArgs e)
@@ -161,14 +164,16 @@ namespace 打地鼠_草稿_
                 count++;
                 label3.Text = "游戏得分:" + count;
                 pat = 0;
+                p4.Visible = false;
             }
             else
             {
                 uncount++;
                 label3.Text = "游戏得分:" + count;
                 label5.Text = "游戏失误:" + uncount;
+                p4.Visible = false;
             }
-            p4.Visible = false;
+
         }
 
         private void p2_Click(object sender, EventArgs e)
@@ -180,14 +185,16 @@ namespace 打地鼠_草稿_
                 count++;
                 label3.Text = "游戏得分:" + count;
                 pat = 0;
+                p2.Visible = false;
             }
             else
             {
                 uncount++;
                 label3.Text = "游戏得分:" + count;
                 label5.Text = "游戏失误:" + uncount;
+                p2.Visible = false;
             }
-            p2.Visible = false;
+
         }
 
         private void p3_Click(object sender, EventArgs e)
@@ -199,14 +206,15 @@ namespace 打地鼠_草稿_
                 count++;
                 label3.Text = "游戏得分:" + count;
                 pat = 0;
+                p3.Visible = false;
             }
             else
             {
                 uncount++;
                 label3.Text = "游戏得分:" + count;
                 label5.Text = "游戏失误:" + uncount;
+                p3.Visible = false;
             }
-            p3.Visible = false;
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -214,12 +222,12 @@ namespace 打地鼠_草稿_
             if (time == 0)
             {
                 timer1.Enabled = false;
-                p1.Image = imageList1.Images[0];
-                p2.Image = imageList1.Images[0];
-                p3.Image = imageList1.Images[0];
-                p4.Image = imageList1.Images[0];
-                p5.Image = imageList1.Images[0];
-                p6.Image = imageList1.Images[0];
+                p1.Visible = false;
+                p2.Visible = false;
+                p3.Visible = false;
+                p4.Visible = false;
+                p5.Visible = false;
+                p6.Visible = false;
                 button1.Visible = true;
                 button1.Text = "再来一次";
             }

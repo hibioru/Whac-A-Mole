@@ -90,6 +90,7 @@
             this.p1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.p1.TabIndex = 4;
             this.p1.TabStop = false;
+            this.p1.Click += new System.EventHandler(this.p1_Click);
             // 
             // p4
             // 
@@ -209,7 +210,7 @@
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             this.imageList1.Images.SetKeyName(0, "真香.jpg");
-            this.imageList1.Images.SetKeyName(1, "真香_meitu_1.jpg");
+            this.imageList1.Images.SetKeyName(1, "hhh.jpg");
             // 
             // textBox1
             // 
