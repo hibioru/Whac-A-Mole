@@ -54,7 +54,16 @@ namespace 打地鼠_草稿_
             p6.Visible = false;
             count = 0;
             pat = 0;
-            time = Convert.ToInt32(textBox1.Text);
+            try
+            {
+                time = Convert.ToInt32(textBox1.Text);
+            }
+            catch
+            {
+                textBox1 .Text  ="";
+                MessageBox.Show("错误");
+                Application.Exit();
+            }
             label3.Text = "游戏得分：0";
             label5.Text = "游戏失误：0";
             if (timer1.Enabled == true)
