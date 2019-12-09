@@ -58,59 +58,71 @@
             // 
             // p3
             // 
+            this.p3.BackColor = System.Drawing.Color.Transparent;
             this.p3.Image = global::打地鼠_草稿_.Properties.Resources.真香;
             this.p3.Location = new System.Drawing.Point(804, 295);
             this.p3.Name = "p3";
             this.p3.Size = new System.Drawing.Size(209, 215);
+            this.p3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.p3.TabIndex = 6;
             this.p3.TabStop = false;
             this.p3.Click += new System.EventHandler(this.p3_Click);
             // 
             // p2
             // 
+            this.p2.BackColor = System.Drawing.Color.Transparent;
             this.p2.Image = global::打地鼠_草稿_.Properties.Resources.真香;
             this.p2.Location = new System.Drawing.Point(445, 295);
             this.p2.Name = "p2";
             this.p2.Size = new System.Drawing.Size(214, 215);
+            this.p2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.p2.TabIndex = 5;
             this.p2.TabStop = false;
             this.p2.Click += new System.EventHandler(this.p2_Click);
             // 
             // p1
             // 
+            this.p1.BackColor = System.Drawing.Color.Transparent;
             this.p1.Image = global::打地鼠_草稿_.Properties.Resources.真香;
             this.p1.Location = new System.Drawing.Point(91, 295);
             this.p1.Name = "p1";
             this.p1.Size = new System.Drawing.Size(214, 215);
+            this.p1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.p1.TabIndex = 4;
             this.p1.TabStop = false;
             // 
             // p4
             // 
+            this.p4.BackColor = System.Drawing.Color.Transparent;
             this.p4.Image = global::打地鼠_草稿_.Properties.Resources.真香;
             this.p4.Location = new System.Drawing.Point(91, 594);
             this.p4.Name = "p4";
             this.p4.Size = new System.Drawing.Size(214, 214);
+            this.p4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.p4.TabIndex = 3;
             this.p4.TabStop = false;
             this.p4.Click += new System.EventHandler(this.p4_Click);
             // 
             // p5
             // 
+            this.p5.BackColor = System.Drawing.Color.Transparent;
             this.p5.Image = global::打地鼠_草稿_.Properties.Resources.真香;
             this.p5.Location = new System.Drawing.Point(445, 594);
             this.p5.Name = "p5";
             this.p5.Size = new System.Drawing.Size(214, 214);
+            this.p5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.p5.TabIndex = 2;
             this.p5.TabStop = false;
             this.p5.Click += new System.EventHandler(this.p5_Click);
             // 
             // p6
             // 
+            this.p6.BackColor = System.Drawing.Color.Transparent;
             this.p6.Image = global::打地鼠_草稿_.Properties.Resources.真香;
             this.p6.Location = new System.Drawing.Point(804, 594);
             this.p6.Name = "p6";
             this.p6.Size = new System.Drawing.Size(209, 214);
+            this.p6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.p6.TabIndex = 1;
             this.p6.TabStop = false;
             this.p6.Click += new System.EventHandler(this.pictureBox7_Click);
