@@ -10,22 +10,18 @@ using System.Windows.Forms;
 
 namespace 打地鼠_草稿_
 {
-    public partial class 初始界面 : Form
+    public partial class 开始游戏 : Form
     {
-        
-        public 初始界面()
+        public 开始游戏()
         {
             InitializeComponent();
-            
-
         }
 
-       
-
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
-            f.Show();
+            DialogResult = DialogResult.OK;
+            Dispose();
+            Close();
         }
     }
 }

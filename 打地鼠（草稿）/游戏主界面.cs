@@ -10,17 +10,18 @@ using System.Windows.Forms;
 
 namespace 打地鼠_草稿_
 {
-    public partial class Form1 : Form
+    public partial class 游戏主界面 : Form
     {
         int time = 0;//时间
         int count = 0;//得分
         int uncount = 0;//失误
         int num = 0;//控制图片的出现
         int pat = 0;//判断得分
-        public Form1()
+        public 游戏主界面()
         {
             InitializeComponent();
         }
+
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
@@ -247,5 +248,6 @@ namespace 打地鼠_草稿_
                 progressBar1.Value = time;
             }
         }
+
     }
 }

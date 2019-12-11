@@ -1,6 +1,6 @@
 ﻿namespace 打地鼠_草稿_
 {
-    partial class Form1
+    partial class 游戏主界面
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(游戏主界面));
             this.p3 = new System.Windows.Forms.PictureBox();
             this.p2 = new System.Windows.Forms.PictureBox();
             this.p1 = new System.Windows.Forms.PictureBox();
@@ -242,11 +242,11 @@
             this.panel1.Size = new System.Drawing.Size(615, 342);
             this.panel1.TabIndex = 17;
             // 
-            // Form1
+            // 游戏主界面
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(761, 601);
+            this.ClientSize = new System.Drawing.Size(734, 661);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label4);
@@ -263,8 +263,10 @@
             this.Controls.Add(this.p6);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.MaximumSize = new System.Drawing.Size(750, 700);
+            this.MinimumSize = new System.Drawing.Size(750, 700);
+            this.Name = "游戏主界面";
+            this.Text = "打地鼠";
             ((System.ComponentModel.ISupportInitialize)(this.p3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p1)).EndInit();
