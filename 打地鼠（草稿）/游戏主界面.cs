@@ -23,7 +23,7 @@ namespace 打地鼠_草稿_
         }
 
 
-        private void pictureBox7_Click(object sender, EventArgs e)
+        private void p6_Click(object sender, EventArgs e)
         {
             p6.Image = imageList1.Images[1];
             pat = 1;
@@ -32,14 +32,13 @@ namespace 打地鼠_草稿_
                 count++;
                 label3.Text = "游戏得分:" + count;
                 pat = 0;
+                p6.Visible = false;
             }
             else
             {
-                uncount++;
                 label3.Text = "游戏得分:" + count;
-                label5.Text = "游戏失误:" + uncount;
+                p6.Visible = false;
             }
-            p6.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -71,6 +70,11 @@ namespace 打地鼠_草稿_
             {
                 progressBar1.Maximum = Convert.ToInt32(textBox1.Text);
                 progressBar1.Value = Convert.ToInt32(textBox1.Text);
+            }
+            if (checkBox1.Checked == false && checkBox2.Checked == false && checkBox3.Checked == false)
+            {
+                timer1.Enabled = false;
+                MessageBox.Show("请选择难度！");
             }
         }
 
@@ -138,9 +142,7 @@ namespace 打地鼠_草稿_
             }
             else
             {
-                uncount++;
                 label3.Text = "游戏得分:" + count;
-                label5.Text = "游戏失误:" + uncount;
                 p1.Visible = false;
             }
 
@@ -159,9 +161,7 @@ namespace 打地鼠_草稿_
             }
             else
             {
-                uncount++;
                 label3.Text = "游戏得分:" + count;
-                label5.Text = "游戏失误:" + uncount;
                 p5.Visible = false;
             }
         }
@@ -179,9 +179,7 @@ namespace 打地鼠_草稿_
             }
             else
             {
-                uncount++;
                 label3.Text = "游戏得分:" + count;
-                label5.Text = "游戏失误:" + uncount;
                 p4.Visible = false;
             }
 
@@ -200,9 +198,7 @@ namespace 打地鼠_草稿_
             }
             else
             {
-                uncount++;
                 label3.Text = "游戏得分:" + count;
-                label5.Text = "游戏失误:" + uncount;
                 p2.Visible = false;
             }
 
@@ -221,9 +217,7 @@ namespace 打地鼠_草稿_
             }
             else
             {
-                uncount++;
                 label3.Text = "游戏得分:" + count;
-                label5.Text = "游戏失误:" + uncount;
                 p3.Visible = false;
             }
         }
@@ -246,6 +240,36 @@ namespace 打地鼠_草稿_
             {
                 time--;
                 progressBar1.Value = time;
+            }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                checkBox2.Checked = false;
+                checkBox3.Checked = false;
+                timer1.Interval = 1000;
+            }
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBox2.Checked == true)
+            {
+                checkBox1.Checked = false;
+                checkBox3.Checked = false;
+                timer1.Interval = 700;
+            }
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox3.Checked == true)
+            {
+                checkBox1.Checked = false;
+                checkBox2.Checked = false;
+                timer1.Interval = 400;
             }
         }
 

@@ -13,7 +13,6 @@ D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打
 D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.exe
 D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.pdb
 D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.csprojResolveAssemblyReference.cache
-D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.Form1.resources
 D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.Properties.Resources.resources
 D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.csproj.GenerateResource.Cache
 C:\Users\sally\Desktop\c#\新建文件夹\Whac-A-Mole\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.exe.config
@@ -35,3 +34,5 @@ E:\Clover的代码库\Course Project in GDMU\Whac-A-Mole\打地鼠（草稿）\o
 E:\Clover的代码库\Course Project in GDMU\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.exe
 E:\Clover的代码库\Course Project in GDMU\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.pdb
 E:\Clover的代码库\Course Project in GDMU\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.游戏主界面.resources
+D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.游戏主界面.resources
+D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.开始游戏.resources
