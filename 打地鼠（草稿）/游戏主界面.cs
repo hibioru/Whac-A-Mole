@@ -16,7 +16,7 @@ namespace 打地鼠_草稿_
         int count = 0;//得分
         int uncount = 0;//失误
         int num = 0;//控制图片的出现
-        int pat = 0;//判断得分
+        int pat = 0;//判断是得分还是失误
         public 游戏主界面()
         {
             InitializeComponent();
@@ -27,18 +27,9 @@ namespace 打地鼠_草稿_
         {
             p6.Image = imageList1.Images[1];
             pat = 1;
-            if (pat == 1)
-            {
-                count++;
-                label3.Text = "游戏得分:" + count;
-                pat = 0;
-                p6.Visible = false;
-            }
-            else
-            {
-                label3.Text = "游戏得分:" + count;
-                p6.Visible = false;
-            }
+            compare();
+            p6.Visible = false;
+            p6.Image = imageList1.Images[0];
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -60,9 +51,9 @@ namespace 打地鼠_草稿_
             }
             catch
             {
-                textBox1 .Text  ="";
+                textBox1.Text = "";
                 MessageBox.Show("请输入时间!");
-                
+
             }
             label3.Text = "游戏得分：0";
             label5.Text = "游戏失误：0";
@@ -80,41 +71,43 @@ namespace 打地鼠_草稿_
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            
+
             Random a = new Random();
             int num = a.Next(6);
             switch (num)
             {
-                case(1):
+                case (1):
                     p1.Visible = true;
                     break;
-                    p1.Visible = false;
-                    break;
-                case(2):
+
+                case (2):
                     p2.Visible = true;
                     break;
-                    p2.Visible = false;
-                    break;
-                case(3):
+                    
+                case (3):
                     p3.Visible = true;
                     break;
-                    p3.Visible = false;
-                    break;
-                case(4):
+                    
+                case (4):
                     p4.Visible = true;
                     break;
-                    p4.Visible = false;
-                    break;
-                case(5):
+                   
+                case (5):
                     p5.Visible = true;
                     break;
-                    p5.Visible = false;
-                    break;
-                case(6):
+                  
+                case (6):
                     p6.Visible = true;
                     break;
-                    p6.Visible = false;
-                    break;
+                    
+            }
+            if (pat == 1)
+            {
+                pat = 0;
+            }
+            else
+            {
+                compare();
             }
             if (time >= 1)
             {
@@ -133,93 +126,45 @@ namespace 打地鼠_草稿_
         {
             p1.Image = imageList1.Images[1];
             pat = 1;
-            if (pat == 1)
-            {
-                count++;
-                label3.Text = "游戏得分:" + count;
-                pat = 0;
-                p1.Visible = false;
-            }
-            else
-            {
-                label3.Text = "游戏得分:" + count;
-                p1.Visible = false;
-            }
-
+            compare();
+            p1.Visible = false;
+            p1.Image = imageList1.Images[0];
         }
 
         private void p5_Click(object sender, EventArgs e)
         {
             p5.Image = imageList1.Images[1];
             pat = 1;
-            if (pat == 1)
-            {
-                count++;
-                label3.Text = "游戏得分:" + count;
-                pat = 0;
-                p5.Visible = false;
-            }
-            else
-            {
-                label3.Text = "游戏得分:" + count;
-                p5.Visible = false;
-            }
+            compare();
+            p5.Visible = false;
+            p5.Image = imageList1.Images[0];
         }
 
         private void p4_Click(object sender, EventArgs e)
         {
             p4.Image = imageList1.Images[1];
             pat = 1;
-            if (pat == 1)
-            {
-                count++;
-                label3.Text = "游戏得分:" + count;
-                pat = 0;
-                p4.Visible = false;
-            }
-            else
-            {
-                label3.Text = "游戏得分:" + count;
-                p4.Visible = false;
-            }
-
+            compare();
+            p4.Visible = false;
+            p4.Image = imageList1.Images[0];
         }
 
         private void p2_Click(object sender, EventArgs e)
         {
             p2.Image = imageList1.Images[1];
             pat = 1;
-            if (pat == 1)
-            {
-                count++;
-                label3.Text = "游戏得分:" + count;
-                pat = 0;
-                p2.Visible = false;
-            }
-            else
-            {
-                label3.Text = "游戏得分:" + count;
-                p2.Visible = false;
-            }
-
+            compare();
+            p2.Visible = false;
+            p2.Image = imageList1.Images[0];
         }
 
         private void p3_Click(object sender, EventArgs e)
         {
             p3.Image = imageList1.Images[1];
             pat = 1;
-            if (pat == 1)
-            {
-                count++;
-                label3.Text = "游戏得分:" + count;
-                pat = 0;
-                p3.Visible = false;
-            }
-            else
-            {
-                label3.Text = "游戏得分:" + count;
-                p3.Visible = false;
-            }
+            compare();
+            p3.Visible = false;
+            p3.Image = imageList1.Images[0];
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -255,7 +200,7 @@ namespace 打地鼠_草稿_
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            if(checkBox2.Checked == true)
+            if (checkBox2.Checked == true)
             {
                 checkBox1.Checked = false;
                 checkBox3.Checked = false;
@@ -272,6 +217,21 @@ namespace 打地鼠_草稿_
                 timer1.Interval = 400;
             }
         }
-
+        private void compare()
+        {
+            int result = pat;
+            switch (result)
+            { 
+                case 0 :
+                    uncount++;
+                    label5.Text = "游戏失误：" + uncount;
+                    break;
+                case 1:
+                    count++;
+                    label3.Text = "游戏得分：" + count;
+                    break;
+            }
+        }
     }
 }
+
