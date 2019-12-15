@@ -16,25 +16,18 @@ namespace 打地鼠_草稿_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            
-            
+
+
             开始游戏 开始游戏 = new 开始游戏();
             开始游戏.ShowDialog();
+            开始游戏.Dispose();
+            Application.Run(new 游戏主界面());
 
-            if (开始游戏.DialogResult == DialogResult.OK) 
-            {
-                开始游戏.Dispose();
-                Application.Run(new 游戏主界面());
-            }
 
-            else if (开始游戏.DialogResult == DialogResult.Cancel) 
-            {
-                开始游戏.Dispose();
-                return;
-            }
-            
 
-          
+
+
+
         }
     }
 }

@@ -59,13 +59,19 @@ namespace 打地鼠_草稿_
             }
             label3.Text = "游戏得分：0";
             label5.Text = "游戏失误：0";
-            if (timer1.Enabled == true)
+            try 
             {
+                timer1.Enabled = true;            
                 progressBar1.Maximum = Convert.ToInt32(textBox1.Text);
                 progressBar1.Value = Convert.ToInt32(textBox1.Text);
             }
-            if (checkBox1.Checked == false && checkBox2.Checked == false && checkBox3.Checked == false)
-            {
+            
+            catch
+            {   
+                checkBox1.Checked = false;
+                checkBox2.Checked = false;
+                checkBox3.Checked = false;
+            
                 timer1.Enabled = false;
                 MessageBox.Show("请选择难度！");
             }
@@ -133,6 +139,7 @@ namespace 打地鼠_草稿_
             p1.Image = imageList1.Images[0];
             p1.Visible = true;
             p1.Image = imageList2.Images[0];
+
         }
 
         private void p5_Click(object sender, EventArgs e)
