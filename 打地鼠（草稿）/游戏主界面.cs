@@ -30,6 +30,8 @@ namespace 打地鼠_草稿_
             compare();
             p6.Visible = false;
             p6.Image = imageList1.Images[0];
+            p6.Visible = true;
+            p6.Image = imageList2.Images[0];
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -129,6 +131,8 @@ namespace 打地鼠_草稿_
             compare();
             p1.Visible = false;
             p1.Image = imageList1.Images[0];
+            p1.Visible = true;
+            p1.Image = imageList2.Images[0];
         }
 
         private void p5_Click(object sender, EventArgs e)
@@ -138,6 +142,8 @@ namespace 打地鼠_草稿_
             compare();
             p5.Visible = false;
             p5.Image = imageList1.Images[0];
+            p5.Visible = true;
+            p5.Image = imageList2.Images[0];
         }
 
         private void p4_Click(object sender, EventArgs e)
@@ -147,6 +153,8 @@ namespace 打地鼠_草稿_
             compare();
             p4.Visible = false;
             p4.Image = imageList1.Images[0];
+            p4.Visible = true;
+            p4.Image = imageList2.Images[0];
         }
 
         private void p2_Click(object sender, EventArgs e)
@@ -156,6 +164,8 @@ namespace 打地鼠_草稿_
             compare();
             p2.Visible = false;
             p2.Image = imageList1.Images[0];
+            p2.Visible = true;
+            p2.Image = imageList2.Images[0];
         }
 
         private void p3_Click(object sender, EventArgs e)
@@ -165,6 +175,8 @@ namespace 打地鼠_草稿_
             compare();
             p3.Visible = false;
             p3.Image = imageList1.Images[0];
+            p3.Visible = true;
+            p3.Image = imageList2.Images[0];
         }
 
         private void timer2_Tick(object sender, EventArgs e)

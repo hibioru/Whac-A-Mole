@@ -36,3 +36,13 @@ E:\Clover的代码库\Course Project in GDMU\Whac-A-Mole\打地鼠（草稿）\o
 E:\Clover的代码库\Course Project in GDMU\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.游戏主界面.resources
 D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.游戏主界面.resources
 D:\新建文件夹 (2)\打地鼠（草稿）\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.开始游戏.resources
+D:\Visual C#\local\Whac-A-Mole\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.exe.config
+D:\Visual C#\local\Whac-A-Mole\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.exe
+D:\Visual C#\local\Whac-A-Mole\打地鼠（草稿）\bin\Debug\打地鼠（草稿）.pdb
+D:\Visual C#\local\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.csprojResolveAssemblyReference.cache
+D:\Visual C#\local\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.游戏主界面.resources
+D:\Visual C#\local\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.开始游戏.resources
+D:\Visual C#\local\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠_草稿_.Properties.Resources.resources
+D:\Visual C#\local\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.csproj.GenerateResource.Cache
+D:\Visual C#\local\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.exe
+D:\Visual C#\local\Whac-A-Mole\打地鼠（草稿）\obj\Debug\打地鼠（草稿）.pdb
