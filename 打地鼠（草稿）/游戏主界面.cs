@@ -23,17 +23,6 @@ namespace 打地鼠_草稿_
         }
 
 
-        private void p6_Click(object sender, EventArgs e)
-        {
-            p6.Image = imageList1.Images[1];
-            pat = 1;
-            compare();
-            p6.Visible = false;
-            p6.Image = imageList1.Images[0];
-            p6.Visible = true;
-            p6.Image = imageList2.Images[0];
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             //游戏开始的按钮，大概效果就是按下之后按钮隐藏，所有图片隐藏，游戏时间和得分为0，timer全部不动。
@@ -132,58 +121,56 @@ namespace 打地鼠_草稿_
 
         private void p1_Click(object sender, EventArgs e)
         {
-            p1.Image = imageList1.Images[1];
+            p1.Image = imageList2.Images[0];
             pat = 1;
             compare();
             p1.Visible = false;
             p1.Image = imageList1.Images[0];
-            p1.Visible = true;
-            p1.Image = imageList2.Images[0];
-
         }
 
         private void p5_Click(object sender, EventArgs e)
         {
-            p5.Image = imageList1.Images[1];
+            p5.Image = imageList2.Images[0];
             pat = 1;
             compare();
             p5.Visible = false;
             p5.Image = imageList1.Images[0];
-            p5.Visible = true;
-            p5.Image = imageList2.Images[0];
         }
 
         private void p4_Click(object sender, EventArgs e)
         {
-            p4.Image = imageList1.Images[1];
+            p4.Image = imageList2.Images[0];
             pat = 1;
             compare();
             p4.Visible = false;
             p4.Image = imageList1.Images[0];
-            p4.Visible = true;
-            p4.Image = imageList2.Images[0];
         }
 
         private void p2_Click(object sender, EventArgs e)
         {
-            p2.Image = imageList1.Images[1];
+            p2.Image = imageList2.Images[0];
             pat = 1;
             compare();
             p2.Visible = false;
             p2.Image = imageList1.Images[0];
-            p2.Visible = true;
-            p2.Image = imageList2.Images[0];
         }
 
         private void p3_Click(object sender, EventArgs e)
         {
-            p3.Image = imageList1.Images[1];
+            p3.Image = imageList2.Images[0];
             pat = 1;
             compare();
             p3.Visible = false;
             p3.Image = imageList1.Images[0];
-            p3.Visible = true;
-            p3.Image = imageList2.Images[0];
+        }
+
+        private void p6_Click(object sender, EventArgs e)
+        {
+            p6.Image = imageList2.Images[0];
+            pat = 1;
+            compare();
+            p6.Visible = false;
+            p6.Image = imageList1.Images[0];
         }
 
         private void timer2_Tick(object sender, EventArgs e)
